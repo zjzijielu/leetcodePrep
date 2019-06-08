@@ -34,3 +34,5 @@ class Solution {
     }
 }
 ```
+### TODO LIST
+* Solve it with Union Find
