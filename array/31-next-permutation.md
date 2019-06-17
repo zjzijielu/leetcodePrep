@@ -11,6 +11,7 @@ I'm not so sure how the solution to this problem can be generalized to other pro
 First, let's look at some examples:
 * 3,1,4,7 -> 3,1,7,4
 * 1,2,3 -> 1,3,2
+
 The pair of number that we replace is the last increasing pair of digits. 
 
 If there is no increasing pair of digits found at all, that must mean the numbers are decreasing, i.e. 3,2,1.
@@ -19,6 +20,7 @@ In such case, we reverse the whole int array.
 Let's look at some other examples:
 * 3,1,7,4 -> 3,4,1,7
 * 1,3,2 -> 2,1,3
+
 It's not enough to find the last increasing pair of digits. 
 In the above scenarios, we can see that after locating the pair, the part following the increasing pair must be decreasing.
 In order to get the next permutation, we have to reverse the decreasing digits.
