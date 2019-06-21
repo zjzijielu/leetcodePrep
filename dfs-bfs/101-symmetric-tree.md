@@ -77,3 +77,6 @@ class Solution {
     }
 }
 ```
+### Complexity Analysis
+* O(n) for time complexity, as in the worst case we will traverse through every node in the tree.
+* O(n) for space complexity - BFS space complexity
