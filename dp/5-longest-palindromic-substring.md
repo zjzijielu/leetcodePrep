@@ -99,6 +99,6 @@ The part of updating the start and end pointers can be done in a simpler way as 
 ```
 
 ### Complexity Analysis
-* O(n) for time complexity, since the worst case for each scan is to go through the entire string.
+* O(n^2) for time complexity, since the worst case for each scan is to go through the entire string.
 * O(1) for space complexity, since we only need two pointers.
             
